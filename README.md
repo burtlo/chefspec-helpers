@@ -32,7 +32,7 @@ example followed by the example again with the helpers library loaded.
 
 ### Plain ChefSpec
 
-```
+```ruby
 require "spec_helper"
 
 describe "ark::default" do
@@ -50,7 +50,7 @@ In this example we are attempting to validate Ark cookbook's default recipe.
 
 ### With ChefSpec-Helpers
 
-```
+```ruby
 require "spec_helper"
 
 describe_recipe "ark::default" do
@@ -76,7 +76,7 @@ requires you to set node attributes:
 
 ### Specifying Node Attributes with Plain ChefSpec
 
-```
+```ruby
 require "spec_helper"
 
 describe "ark::default" do
@@ -94,7 +94,7 @@ end
 
 ### Specifying Node Attributes with ChefSpec-Helpers
 
-```
+```ruby
 require "spec_helper"
 
 describe_recipe "ark::default" do
@@ -120,7 +120,7 @@ correctly.
 
 ### Testing Node Attributes Set in the Cookbook with Plain ChefSpec
 
-```
+```ruby
 require "spec_helper"
 
 describe "ark::default" do
@@ -143,7 +143,7 @@ end
 
 ### Testing Node Attributes Set in the Cookbook with ChefSpec-Helpers
 
-```
+```ruby
 require "spec_helper"
 
 describe_recipe "ark::default" do
